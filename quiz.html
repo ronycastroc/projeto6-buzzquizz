@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/quiz.css">
+    <title>Cria Quiz</title>
+</head>
+
+<body>
+    <header>
+        <h1>BuzzQuizz</h1>
+    </header>
+    <div class="titulo">
+        <h2>Comece pelo começo</h2>
+    </div>
+    <div class="content-quiz">
+        <form action="quiz_tela2.html" onsubmit="chamarPeguntas(this);">
+                    <input name="titulo" placeholder="Título do seu quizz" minlength="20" maxlength="65" type="text" required>
+                    <input name="url_image" placeholder="URL da imagem do seu quizz" type="url" required>
+                    <input name="qtd_perguntas" placeholder="Quantidade de perguntas do quizz" type="number" min="3" required>
+                    <input name="qtd_niveis" placeholder="Quantidade de níveis do quizz" type="number" min="2" required>
+            </div>
+
+            <input class="button-quiz" type="submit" value="Prosseguir pra criar perguntas">
+
+        </form>
+
+    </div>
+
+
+
+    </div>
+
+    </form>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script/quiz.js"></script>
+</body>
+
+</html>
+<!-- Tela 01 -->
+
+<!-- <div class="titulo">
+    <h2>Comece pelo começo</h2>
+</div>
+  <form action="#" onsubmit=" return form(this);">
+    <div class="content-quiz">
+        <div class="pergunta">
+        <input placeholder="Título do seu quizz" minlength="20" maxlength="65" type="text" required> 
+        <input placeholder="URL da imagem do seu quizz" type="url" required>
+        <input placeholder="Quantidade de perguntas do quizz" type="number" min="3" required>
+        <input placeholder="Quantidade de níveis do quizz" type="number" min="2" required>
+    </div>
+    </div>
+
+    <input class="button-quiz" type="submit" value="Prosseguir pra cria níveis">    
+
+    </form>-->
+
+<!-- Tela 02  -->
+
+<!--  <form action="#" onsubmit=" return form(this);">
+        <div class="pergunta">
+            <div>
+                <div onclick="expande(this)">
+                    <p>Pergunta</p>
+                    <ion-icon name="create-outline"></ion-icon>
+                </div>
+                <input placeholder="Texto da pergunta: no mínimo 20 caracteres" minlength="20" type="text" required>
+                <input placeholder="Cor de Fundos da Pergunta:" min="7" max="7" pattern="#{1}[a-fA-F\d]+" required>
+            </div>
+            <div>
+                <p>Reposta correta</p>
+                <input placeholder="Resposta correta" type="text" required>
+                <input placeholder="URL da imagem" type="url" required>
+            </div>
+            <div>
+                <p>Reposta incorretas</p>
+                <input placeholder="Resposta incorreta 1" type="text" required>
+                <input placeholder="URL da imagem" type="url" required>
+                <input placeholder="Resposta incorreta 2" type="url">
+                <input placeholder="URL da imagem" type="text">
+                <input placeholder="Resposta incorreta 3" type="text">
+                <input placeholder="URL da imagem" type="url">
+            </div>
+        </div>
+    </div>
+   
+
+    <input class="button-quiz" type="submit" value="Prosseguir pra cria níveis">    
+</div>
+  
+    </form>
+  
+-->
+<!-- tela 03 -->
+<!--   
+        <div class="pergunta">
+            <div>
+                <div onclick="expande(this)">
+                    <p>Nivel 1</p>
+                    <ion-icon name="create-outline"></ion-icon>
+                </div>
+                <input placeholder="Título do nível" minlength="10" type="text" required>
+                <input placeholder="% de acerto mínima" min="0" max="100" type="number" required>
+                <input placeholder="URL da imagem do nível"  type="url" required>
+                <textarea  placeholder="Descrição do nível" minlength="30" required></textarea>
+            </div>
+        </div>
+        <input class="button-quiz" type="submit" value="Prosseguir pra cria níveis">
+ -->
+<!-- tela 04
+<div class="quiz-img">
+    <img src="imgteste/one-punch-man.webp" alt="">
+    <p>Acerte os personagens corretos do one punch man e prove seu amor!</p>
+</div> 
+<input class="button-quiz" type="submit" value="Prosseguir pra cria níveis">    
+
+<div class="button-volta">
+    <span>Voltar pra home</span>
+</div>
+-->
+<!-- Form -->
+<!-- <form action="#" onsubmit=" return form(this);">
+           
+    <input type="text" id="fname" name="teste" required><br>
+    <input type="submit" value="Submit">
+  </form>  -->

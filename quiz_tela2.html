@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/quiz.css">
+    <title>Cria Quiz - Tela 02</title>
+</head>
+
+<body>
+    <header>
+        <h1>BuzzQuizz</h1>
+    </header>
+    <div class="titulo">
+        <h2>Crie suas perguntas</h2>
+    </div>
+    <form action="quiz_tela3.html"  onsubmit="guardaPerguntas();" >
+    <div class="content-quiz">
+    
+        
+       
+    
+        
+    </div>
+      
+    </form>
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script/quiz.js"></script>
+    <script>
+        criarPeguntas()
+    </script>
+</body>
+
+</html>
+<!-- 
+<div class="pergunta">
+    <div>
+        <div onclick="expande(this)">
+            <p>Pergunta</p>
+            <ion-icon name="create-outline"></ion-icon>
+        </div>
+        <input placeholder="Texto da pergunta: no mínimo 20 caracteres" minlength="20" type="text" required>
+        <input placeholder="Cor de Fundos da Pergunta:" min="7" max="7" pattern="#{1}[a-fA-F\d]+" required>
+    </div>
+    <div>
+        <p>Reposta correta</p>
+        <input placeholder="Resposta correta" type="text" required>
+        <input placeholder="URL da imagem" type="url" required>
+    </div>
+    <div>
+        <p>Reposta incorretas</p>
+        <input placeholder="Resposta incorreta 1" type="text" required>
+        <input placeholder="URL da imagem" type="url" required>
+        <input placeholder="Resposta incorreta 2" type="url">
+        <input placeholder="URL da imagem" type="text">
+        <input placeholder="Resposta incorreta 3" type="text">
+        <input placeholder="URL da imagem" type="url">
+    </div>
+</div> -->
