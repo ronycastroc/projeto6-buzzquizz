@@ -75,7 +75,7 @@ function minhasQuizz() {
 minhasQuizz();
 
 function buscarQuizz() {
-    const promise = axios.get('https://mock-api.driven.com.br/api/v6/buzzquizz/quizzes')
+    const promise = axios.get('https://mock-api.driven.com.br/api/vs/buzzquizz/quizzes')
 
     promise.then(rendereizarQuizz)
 }
@@ -113,7 +113,7 @@ function perguntaQuizz(elemento) {
 }
 
 function buscarPerguntas() {
-    let promise = axios.get(`https://mock-api.driven.com.br/api/v6/buzzquizz/quizzes/${idQuizz}`)
+    let promise = axios.get(`https://mock-api.driven.com.br/api/vs/buzzquizz/quizzes/${idQuizz}`)
 
     promise.then(renderizarPerguntas)
 }
